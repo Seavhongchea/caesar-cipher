@@ -41,6 +41,8 @@ def cipher_decrypt(ciphertext, key):
     return decrypted
 
 
+ciphertext = ""
+
 for i in range(0,26):
 
     plain_text = cipher_decrypt(ciphertext, i)
